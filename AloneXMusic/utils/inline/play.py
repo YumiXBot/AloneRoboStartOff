@@ -76,7 +76,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             ),
             InlineKeyboardButton(
 
-                text="💌 ɢʀᴏᴜᴘ",
+                text="💌 ᴜᴘᴅᴀᴛᴇs",
 
                 url=f"{SUPPORT_CHAT}",
 
@@ -106,7 +106,7 @@ def stream_markup(_, chat_id):
             ),
             InlineKeyboardButton(
 
-                text="💌 ɢʀᴏᴜᴘ",
+                text="💌 ᴜᴘᴅᴀᴛᴇs",
 
                 url=f"{SUPPORT_CHAT}",
 
