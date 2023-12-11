@@ -14,11 +14,11 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","ALONE_WAS_BOT")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "AloneXMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "AloneXRobot")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "Alone Music")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "AloneXHelper")
+ASSUSERNAME = getenv("ASSUSERNAME" , "AloneXMusic")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -50,7 +50,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneXBots")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AloneXBots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
